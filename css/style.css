@@ -1,0 +1,432 @@
+html,
+body {
+    background-color: #FFF;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    z-index: 999;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+.navbar .navbar-brand {
+    letter-spacing: 3px;
+    margin-left: 52px;
+    color: rgb(12, 1, 22);
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: rgb(12, 1, 22);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-item a:hover {
+    color: #C4313180;
+}
+
+
+/*End Navigation*/
+
+
+/*Banner section*/
+
+#Banner {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#Banner .container .row {
+    padding-top: 5%;
+}
+
+#Banner .container .row .text-area h3 {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#Banner .container .row .text-area h2 {
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+
+#Banner .container .row .text-area p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    text-shadow: #ccc solid 1px;
+}
+
+#Banner .banner-image>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/*end banner section*/
+
+
+/* about */
+
+#user-info .about {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#user-info .about h3 {
+    font-family: cursive;
+}
+
+#user-info .about h1 {
+    font-family: cursive;
+}
+
+#user-info .about .h-about-underline {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: #C4313180;
+}
+
+#user-info .about .profile-img {
+    height: 400px;
+    border-radius: 54% 46% 62% 38% / 20% 24% 76% 80%;
+    -webkit-border-radius: 54% 46% 62% 38% / 20% 24% 76% 80%;
+    -moz-border-radius: 54% 46% 62% 38% / 20% 24% 76% 80%;
+    -ms-border-radius: 54% 46% 62% 38% / 20% 24% 76% 80%;
+    -o-border-radius: 54% 46% 62% 38% / 20% 24% 76% 80%;
+}
+
+
+/* style skills */
+
+#user-info .about .skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+#user-info .about .skills-bar .progress {
+    margin-bottom: 10px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#user-info .about .skills-bar .progress .progress-bar {
+    background: #000;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+
+/* End style skills */
+
+
+/* style social icons */
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+
+/* end social icons styles */
+
+
+/* End about */
+
+
+/* style resume */
+
+#user-info .resume {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+#user-info .resume h3 {
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+
+#user-info .about .h-about-underline {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: #C4313180;
+}
+
+#user-info .resume .timeline {
+    list-style: none;
+    position: relative;
+}
+
+#user-info .resume .timeline:before {
+    content: "";
+    background: #555;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+#user-info .resume .timeline li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: #FFF;
+}
+
+#user-info .resume .timeline li:before {
+    content: "";
+    background: #FFF;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    left: 20px;
+    border: 3px solid #173E43;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#user-info .resume .timeline li h4 {
+    background-color: #173E43;
+    padding: 5px 0 5px 20px;
+    color: #FFF;
+}
+
+#user-info .resume .timeline li h4 span {
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+/* End style resume */
+
+
+/*Sevices Section*/
+
+#user-info #services-area {
+    padding: 4rem 2rem;
+}
+
+#user-info #services-area h1 {
+    font-family: cursive;
+    font-weight: 500;
+}
+
+#user-info #services-area .h-about-underline {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: #C4313180;
+}
+
+#user-info>#services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    display: block;
+    margin: 0 auto;
+    transition: box-shadow .3s ease;
+    -webkit-transition: box-shadow .3s ease;
+    -moz-transition: box-shadow .3s ease;
+    -ms-transition: box-shadow .3s ease;
+    -o-transition: box-shadow .3s ease;
+    cursor: pointer;
+}
+
+#user-info>#services-area .services:hover {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.705);
+}
+
+
+/* End Services Area */
+
+
+/* start Testimonial Me */
+
+#user-info #testimonials {
+    padding-top: 100px;
+}
+
+#user-info #testimonials .title-h1 {
+    font-family: cursive;
+}
+
+#user-info #testimonials .h-about-underline {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: #C4313180;
+}
+
+#user-info #testimonials .about-title p {
+    padding: 1rem 7rem;
+}
+
+#user-info #testimonials .client {
+    background: #ffffff10;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    margin: 2rem 0rem;
+}
+
+#user-info #testimonials .client .client-img {
+    padding: 2rem;
+}
+
+#user-info #testimonials .client .about-client {
+    padding-top: 2rem;
+}
+
+#user-info #testimonials .client .about-client h4 {
+    font: normal 500 21px/ 20px;
+}
+
+#user-info #testimonials .client .about-client p {
+    font-size: 14px;
+}
+
+#user-info #testimonials .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#user-info #testimonials .owl-carousel .owl-dots .owl-dot.active span {
+    background: #4458dc;
+    width: 12px;
+    height: 12px;
+}
+
+
+/* End testimonial Me */
+
+
+/* contact me */
+
+#user-info .contact {
+    padding-top: 50px;
+    background: #173E43;
+    color: #f9f9f9;
+}
+
+#user-info .contact .row {
+    color: #f9f9f9;
+    padding: 17px 0;
+    font-size: 22px;
+}
+
+#user-info .contact .row .col-md-4 .col-lg-4 .col-sm-12 i {
+    padding: 7px;
+    font-size: 40px;
+}
+
+#user-info .contact h1 {
+    font-family: cursive;
+}
+
+#user-info .contact .h-about-underline {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 3px;
+    background-color: #C4313180;
+}
+
+#user-info .contact .btn {
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border: 2px solid #FFF;
+    background-color: transparent !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    outline: hidden;
+}
+
+#user-info .contact .btn:focus {
+    box-shadow: none !important;
+}
+
+#user-info .contact .btn:hover {
+    border: 2px solid #000 !important;
+    background-color: blueviolet !important;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+#user-info .contact .btn i {
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #173E43;
+    height: 50px;
+    margin-top: 50px;
+    color: #FFF;
+    padding-top: 10px;
+}
